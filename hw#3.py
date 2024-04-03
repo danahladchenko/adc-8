@@ -17,7 +17,4 @@ print('my dog is hungry:', my_dog.hungry)   #True
 my_dog.feed()
 print('my dog is hungry:', my_dog.hungry)   #False
 my_dog.walk()
-print('my dog is hungry:', my_dog.hungry)   #True
-
-
-        
+print('my dog is hungry:', my_dog.hungry)   #True      
