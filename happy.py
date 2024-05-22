@@ -1,5 +1,1 @@
-def min_n_variables(elements):
- 
-elements = [5, 1, 9, 0, 7]   
-assert  second_min_n_variables(elements) == 1, 'should be 1'
-print('second min value of elements =', second_min_n_variables(elements))
+def count_distinct_chars(word): """Counts unique characters in a word.""" return len(set(word)) word = "apple" unique_chars = count_distinct_chars(word) print(f"Word '{word}' has {unique_chars} distinct characters.")
