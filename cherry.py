@@ -1,12 +1,7 @@
-#drop sequential duplicated symbols
+def count_distinct_chars(word):
+    """Counts unique characters in a word."""
+    return len(set(word))
 
-word = 'abbcc'
-word_new = ''
-prev_x = ''
-for x in word:
-    if x != prev_x:
-        prev_x = x
-        word_new = word_new + x   #word_new += x
-
-print(word)      
-print(word_new)  
+word = 'apple'   
+unique_chars = count_distinct_chars(word) 
+print(f"Word '{word}' has {unique_chars} distinct characters.")
